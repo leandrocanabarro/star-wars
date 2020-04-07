@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Star Wars
 
-## Available Scripts
+<p align="center">
+  <img alt="Star Wars" src="https://github.com/leandrocanabarro/star-wars/blob/master/screenshots/home-dark.png?raw=true"  width="800px"/>
+</p>
 
-In the project directory, you can run:
+## Tecnologias
 
-### `yarn start`
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- ### Estilos de codificação
+  - [EditorConfig](https://editorconfig.org/)
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
 
-### `yarn test`
+## Extras
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ### Robô procura imagem ([Google Cloud | Api Custom Search](https://cloud.google.com))
+  Este robô utiliza a API Custom Search da Google para filtrar as imagens da internet e montar um arquivo com os links para utilização no projeto, este arquivo está localizado em **src/robots/people.json**
 
-### `yarn build`
+  Antes de executar o robô, é necessário configurar as credenciais dentro do diretório **src/robots/images.js**.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Para rodar o robô e buscar novas imagens dos personagens, execute:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  ```
+  yarn robot
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+	* **googleapis**:  ^48.0.0
+	* **slugify**:  ^1.4.0
 
-### `yarn eject`
+- ### Web
+	* **@testing-library/jest-dom**:  ^4.2.4
+	* **@testing-library/react**:  ^9.3.2
+	* **@testing-library/user-event**:  ^7.1.2
+	* **axios**:  ^0.19.2
+	* **polished**:  ^3.5.1
+	* **prop-types**:  ^15.7.2
+	* **react**:  ^16.13.1
+	* **react-dom**:  ^16.13.1
+	* **react-icons**:  ^3.9.0
+	* **react-router-dom**:  ^5.1.2
+	* **react-scripts**:  3.4.1",
+	* **styled-components**:  ^5.0.1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Navegando
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Após clonar ou baixar o repositório instale as dependências necessárias utilizando o comando **yarn**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para iniciar e testar o projeto:
 
-## Learn More
+```
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Abra [http://localhost:3000](http://localhost:3000) no navegador de sua preferência para visualizar.
