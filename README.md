@@ -21,7 +21,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - ### Robô procura imagem ([Google Cloud | Api Custom Search](https://cloud.google.com))
   Este robô utiliza a API Custom Search da Google para filtrar as imagens da internet e montar um arquivo com os links para utilização no projeto, este arquivo está localizado em **src/robots/people.json**
 
-  Antes de executar o robô, é necessário configurar as credenciais dentro do diretório **src/robots/images.js**.
+  Antes de executar o robô, é necessário configurar as credenciais dentro do diretório **src/robots/image.js**.
 
   Para rodar o robô e buscar novas imagens dos personagens, execute:
 
@@ -33,9 +33,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 	* **slugify**:  ^1.4.0
 
 - ### Web
-	* **@testing-library/jest-dom**:  ^4.2.4
-	* **@testing-library/react**:  ^9.3.2
-	* **@testing-library/user-event**:  ^7.1.2
 	* **axios**:  ^0.19.2
 	* **polished**:  ^3.5.1
 	* **prop-types**:  ^15.7.2
